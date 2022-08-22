@@ -1,11 +1,12 @@
 
 import './App.css';
+import Search from "./Search";
 
 function App() {
   return (
     <div className="App">
       <div className = "container">
-      <h1>Weather WOW</h1>
+      <Search />
       <footer>
         <a href ="codenerdkelly.me" target= "_blank" rel="noreferrer">
           made by codeNerdKelly
